@@ -21,17 +21,25 @@
     <main>
         <!-- inputfield for searching -->
         <section class="container mt-5">
-            <div class="input-group mb-3 w-75 mx-auto">
-                <input type="text" class="form-control rounded-start" placeholder="search your favourite book" aria-describedby="button-addon2" id="search-field">
-                <button class="btn btn-success rounded-end" type="button" id="button-addon2" onclick="searchingBook()">Search</button>
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input type="text" class="form-control rounded-start" placeholder="search your favourite book"
+                    aria-describedby="button-addon2" id="search-field">
+                <button class="btn btn-success rounded-end" type="button" id="button-addon2"
+                    onclick="searchingBook()">Search</button>
             </div>
         </section>
 
-        <!-- element count -->
+        <!-- counting books showing in display -->
 
         <!-- result of searching book -->
+        <!-- <section class="container mt-5" >
+            <div class="row" id="search-result">
+                
+            </div>
+        </section> -->
+
         <section class="container mt-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4" id="search-result">
+            <div class="card mb-3" id="search-result">
                 
             </div>
         </section>
