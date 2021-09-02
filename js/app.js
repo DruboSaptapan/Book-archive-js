@@ -1,7 +1,6 @@
 const searchingBook = () =>{
     const searchingfield = document.getElementById('search-field');
     const searchBook = searchingfield.value;
-    
 
     // clear searching field
     searchingfield.value = '';
