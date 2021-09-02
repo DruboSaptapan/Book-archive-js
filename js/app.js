@@ -19,11 +19,11 @@ const displaySearchResult = docs => {
         const div = document.createElement('div');
         div.classList.add('col');
         div.innerHTML = `
-        <div class="card mb-3 h-100" style="max-width: 540px;">
+        <div class="card mb-3 h-100 border-0" style="max-width: 540px;">
             <div class="row g-0">
 
                 <div class="col-md-4">
-                    <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="img-fluid" alt="...">
+                    <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="img-fluid" alt="book-cover">
                 </div>
                 
                 <div class="col-md-7 ms-2">
