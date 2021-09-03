@@ -24,14 +24,14 @@
             <div class="input-group mb-3 w-50 mx-auto">
                 <input type="text" class="form-control rounded-start" placeholder="search your favourite book"
                     aria-describedby="button-addon2" id="search-field">
-                <button class="btn btn-success rounded-end" type="button" id="button-addon2"
-                    onclick="searchingBook()">Search</button>
+                <button class="btn btn-success rounded-end" type="button" id="search-button">Search</button>
             </div>
         </section>
 
         <!-- counting books showing in display -->
         <section class="mt-5 py-3">
-            <h2 class="text-center" id="check-field"><span id="book-counter">00</span> Match Found</h2>
+            <h2 class="text-center text-success" id="book-search-result"></h2>
+            <h2 class="text-center text-danger" id="error"></h2>
         </section>
 
         <!-- result of searching book -->
